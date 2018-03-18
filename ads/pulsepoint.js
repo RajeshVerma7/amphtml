@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {doubleclick} from '../ads/google/doubleclick';
+import {doubleclick} from '../ads/google/deprecated_doubleclick';
 import {loadScript, validateData, writeScript} from '../3p/3p';
 
 /**
@@ -71,4 +71,3 @@ function headerBidding(global, data) {
     new window.PulsePointHeaderTag(hbConfig).init();
   });
 }
-

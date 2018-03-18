@@ -15,7 +15,7 @@
  */
 
 import {computeInMasterFrame, loadScript} from '../3p/3p';
-import {doubleclick} from '../ads/google/doubleclick';
+import {doubleclick} from '../ads/google/deprecated_doubleclick';
 import {tryParseJson} from '../src/json';
 
 /* global Criteo: false */
@@ -80,5 +80,3 @@ function setTargeting(global, data, targeting) {
     doubleclick(global, dblParams);
   }
 }
-
-

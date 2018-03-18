@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {doubleclick} from '../ads/google/doubleclick';
+import {doubleclick} from '../ads/google/deprecated_doubleclick';
 import {getMultiSizeDimensions} from '../ads/google/utils';
 import {loadScript, validateData} from '../3p/3p';
 import {rethrowAsync} from '../src/log';

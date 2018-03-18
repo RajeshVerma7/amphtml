@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {doubleclick} from '../ads/google/doubleclick';
+import {doubleclick} from '../ads/google/deprecated_doubleclick';
 import {loadScript, writeScript} from '../3p/3p';
 
 const DEFAULT_TIMEOUT = 500; // ms
